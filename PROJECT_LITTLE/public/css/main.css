@@ -1,0 +1,26 @@
+navbar{
+    position: relative;
+    width: 1924.5px;
+    height: 107.82px;
+    left: 0px;
+    top: 0px;
+}
+
+logo{
+    position: absolute;
+    width: 229px;
+    height: 91px;
+    left: 201px;
+    top: 1px;
+}
+
+pagebasic{
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    
+    /* bg */
+    
+    background: radial-gradient(97.91% 60.14% at 50% 50%, #FFDB7E 0%, #FF7A00 100%);
+    border-radius: 32px;
+}
