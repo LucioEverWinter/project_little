@@ -7,7 +7,7 @@
             <div class="card">
                 <div class="card-header">About US</div>
                 <div class="card-body">
-                    <p>You are in About US Page</p>
+                    <p>trang thông tin</p>
                 </div>
             </div>
         </div>

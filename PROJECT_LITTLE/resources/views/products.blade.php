@@ -7,7 +7,7 @@
             <div class="card">
                 <div class="card-header">Products</div>
                 <div class="card-body">
-                    <p>You are in Products Page</p>
+                    <p>Trang sự kiện</p>
                 </div>
             </div>
         </div>

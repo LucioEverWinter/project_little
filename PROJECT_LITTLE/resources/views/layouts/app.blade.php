@@ -6,27 +6,31 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link ref="stylesheet" type="text/css" href="{{url('css/main.css')}}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link href="{{ asset('css/app.scss') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
-            <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }} - Dynamic Navbar Example
-                </a>
-  
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <!-- Right Side Of Navbar -->
-                    <ul class="navbar-nav ml-auto">
-                        @foreach ($navbars as $navbarItem)
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route($navbarItem->route) }}">{{ $navbarItem->name }}</a>
-                            </li>
-                        @endforeach
-                    </ul>
+       
+            
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="logo">
+                    <img src="{{ asset('img/Little_ngang.png') }}" alt="logo little ngang">
                 </div>
-            </div>
-        </nav>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    @foreach ($navbars as $navbarItem)
+                                <li class="tags">
+                                    <a class="nav-link" href="{{ route($navbarItem->route) }}">{{ $navbarItem->name }}</a>
+                                </li>
+                            @endforeach
+                </ul>
+                
+                </div>
+            </nav>
   
         <main class="py-4">
             @yield('content')
