@@ -24,3 +24,10 @@ pagebasic{
     background: radial-gradient(97.91% 60.14% at 50% 50%, #FFDB7E 0%, #FF7A00 100%);
     border-radius: 32px;
 }
+
+tab--left{
+    border-top-right-radius: 300px;
+  }
+tab--right{
+    border-top-left-radius: 300px;
+  }
