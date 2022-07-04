@@ -12,9 +12,8 @@
 </head>
 <body>
     <div id="app">
-       
-            
-            <nav class="navbar navbar-expand" style="background-color: #FF7A00;">
+        <div class="box">
+            <nav class="navbar navbar-expand " style="background-color: #FF7A00;">
                 <div class="logo">
                     <img src="{{ asset('img/Little_ngang.png') }}" alt="logo little ngang">
                 </div>
@@ -28,16 +27,17 @@
                                         <a class="nav-link text-light" href="{{ route($navbarItem->route) }}">{{ $navbarItem->name }}</a>
                                     </button>
                                 </form>
-                                <!--<li class="tags">
+                                <li class="tags">
                                     
-                                </li>-->
+                                </li>
                             @endforeach
                 </ul>
                 
             </div>
-
+            
             </nav>
-  
+        </div>
+        <div class="curve"></div>
         <main class="py-4">
             @yield('content')
         </main>
