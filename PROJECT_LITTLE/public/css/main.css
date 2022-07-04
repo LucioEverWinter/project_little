@@ -4,15 +4,11 @@ navbar{
     height: 107.82px;
     left: 0px;
     top: 0px;
+    
+
 }
 
-logo{
-    position: absolute;
-    width: 229px;
-    height: 91px;
-    left: 201px;
-    top: 1px;
-}
+
 
 pagebasic{
     position: relative;
@@ -25,9 +21,3 @@ pagebasic{
     border-radius: 32px;
 }
 
-tab--left{
-    border-top-right-radius: 300px;
-  }
-tab--right{
-    border-top-left-radius: 300px;
-  }
