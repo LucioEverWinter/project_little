@@ -1,0 +1,417 @@
+.Rectangle1{
+    width: 356px;
+    height: 240px;
+
+    background: url(image.png);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .event1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 28px;
+
+    position: absolute;
+    width: 356px;
+    height: 499px;
+    left: 138px;
+    top: 265px;
+  }
+  
+  .khung1{
+    /* Sự kiện 1 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 0px 32px;
+gap: 16px;
+
+width: 356px;
+height: 499px;
+
+background: #FFFFFF;
+/* tabs */
+
+box-shadow: 4px 4px 45px rgba(109, 46, 0, 0.35);
+border-radius: 20px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+  }
+  .frame30{
+    /* Frame 30 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 138px;
+height: 67px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+  }
+  .frame31{
+    /* Frame 31 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 0px 0px 24px;
+gap: 24px;
+
+width: 258px;
+height: 211px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+  }
+  .sukien1{
+    /* Sự kiện 1 */
+
+
+    width: 138px;
+    height: 37px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* Text */
+
+    color: #23221F;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .damsempark{
+    /* Đầm sen Park */
+
+
+width: 129px;
+height: 26px;
+
+/* 18 medium */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height, or 144% */
+
+display: flex;
+align-items: center;
+
+color: #6C7272;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+  }
+  .timesukien1{
+    /* 30/05/2021 - 01/06/2021 */
+
+
+width: 206px;
+height: 16px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 16px;
+/* identical to box height, or 89% */
+
+display: flex;
+align-items: center;
+
+color: #444444;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+  }
+  .giave1{
+
+    width: 212px;
+    height: 24px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    /* or 150% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+
+    color: #FA7D09;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .giave1box{
+     position: absolute;
+      left: 8%;
+      right: 0%;
+      top: 88%;
+      bottom: 0%;
+
+      /* button */
+
+      filter: drop-shadow(0px 4px 8px rgba(165, 15, 15, 0.45));
+  }
+  .lich1{
+    /* Vector */
+
+
+    width: 24px;
+    height: 24px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+    
+  }
+  .time1{
+    /* time */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 260px;
+height: 24px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+  }
+  .event2{
+    /* sự kiện 2 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 28px;
+
+position: absolute;
+width: 356px;
+height: 499px;
+left: 522px;
+top: 265px;
+
+  }
+  .event3{
+    /* sự kiện 3 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 28px;
+
+    position: absolute;
+    width: 356px;
+    height: 499px;
+    left: 906px;
+    top: 265px;
+
+  }
+  .sukien3{
+    width: 144px;
+height: 37px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 37px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+/* Text */
+
+color: #23221F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+  }
+
+.event4{
+  /* sự kiện 4 */
+
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 28px;
+
+  position: absolute;
+  width: 356px;
+  height: 499px;
+  left: 1290px;
+  top: 265px;
+
+}
+.sukien4{
+  /* Sự kiện 4 */
+
+
+width: 147px;
+height: 37px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 37px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+/* Text */
+
+color: #23221F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.sukiennoibat{
+  position: absolute;
+left: 30.72%;
+right: 30.72%;
+top: 10.49%;
+bottom: 82.1%;
+
+/* identical to box height, or 104% */
+
+
+color: #FFFFFF;
+}
+.Co1{
+  /* Frame */
+position: absolute;
+width: 579px;
+height: 218px;
+left: 1397.17px;
+top: 14.35px;
+
+transform: rotate(9.58deg);
+}
+.Co2{
+position: absolute;
+width: 621px;
+height: 226px;
+left: -54px;
+top: 71px;
+
+
+}
+.nextbtn{
+  /* next btn */
+
+
+position: absolute;
+left: 94.39%;
+right: 2.63%;
+top: 47.14%;
+bottom: 47.03%;
+
+filter: drop-shadow(0px 3px 2px #DE9959);
+}
+.previousbtn{
+  position: absolute;
+  left: 2.63%;
+  right: 94.39%;
+  top: 47.14%;
+  bottom: 47.03%;
+
+  filter: drop-shadow(0px 3px 2px #DE9959);
+}

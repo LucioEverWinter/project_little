@@ -1,25 +1,24 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AppController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\EventController;
 
-use App\Http\Controllers\FrontController;
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
 
-Route::get('/', function () {
-    return view('home');
-});
 
-Route::get('home', [FrontController::class, 'home'])->name('home');
+Route::redirect('/', '/home');
 
-Route::get('products', [FrontController::class, 'products'])->name('products.index');
+Route::get('/home', [HomeController::class, 'index']);
 
-Route::get('about-us', [FrontController::class, 'aboutUs'])->name('about.us');
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/event', [App\Http\Controllers\EventController::class, 'index'])->name('event');
+
+Route::get('/app', [App\Http\Controllers\AppController::class, 'index'])->name('app');
+
+Route::get('/aboutUs', [App\Http\Controllers\AboutController::class, 'index'])->name('aboutUs');
+
